@@ -1,0 +1,64 @@
+@media screen and (min-width: 641px){
+    .box{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #999;
+        width: 100%;
+    }
+   
+    .smallbox1 {
+        height: 118px;
+        width: 148px;
+        border: 1px solid #f00;
+        margin-left: 20px;
+    }
+    .smallbox2 {
+        width: 148px;
+        height: 98px;
+        border: 1px solid #f00;
+    }
+    .smallbox3 {
+        width: 148px;
+        height: 38px;
+        border: 1px solid #f00;
+    }
+    .smallbox4 {
+        width: 148px;
+        height: 198px;
+        border: 1px solid blue;
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 641px){
+    .box{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        border: 1px solid #999;
+        width: 100%;
+    }
+   
+    .smallbox1 {
+        height: 118px;
+        width: 148px;
+        border: 1px solid #f00;
+        margin-left: 20px;
+    }
+    .smallbox2 {
+        width: 148px;
+        height: 98px;
+        border: 1px solid #f00;
+    }
+    .smallbox3 {
+        width: 148px;
+        height: 38px;
+        border: 1px solid #f00;
+    }
+    .smallbox4 {
+        width: 148px;
+        height: 198px;
+        border: 1px solid blue;
+        margin-right: 20px;
+    }
+}

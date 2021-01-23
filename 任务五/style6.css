@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    float: left;
+    width: 70%;
+}
+#header{
+    background-color:black;
+    height: 70px;
+}
+.photo{
+    height:60px;
+    width: 60px;
+    float: left;
+}
+
+.menv{
+    font-size: 15px;
+    float: right;;
+    color:black;
+    margin: 20px;
+}
+.menv a{
+    color: white;
+}p{
+    text-indent: 2em;
+}
+#first{
+    border:2px solid #666666;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 30px;
+}
+#first h1{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#first h2{
+   font-size: 15px;
+   padding-bottom: 20px;
+    color: slategrey;
+}
+span{
+    font-weight: bold;
+}
+.photo1{
+    width: 200px;
+    height: 200px;
+}
+.kuang1{
+    margin-top:40px;
+   margin-right:20px;
+   margin-bottom:30px;
+   margin-left:20px;
+
+}
+#second{
+    border:2px solid #666666;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 30px;
+}
+#second h1{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#second h2{
+    font-size: 15px;
+   padding-bottom: 20px;
+    color: slategrey;
+}
+.kuang2{
+    margin-top:40px;
+   margin-right:20px;
+   margin-bottom:30px;
+   margin-left:20px;
+}
+#third{
+    border:2px solid #666666;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 30px;
+}
+.kuang3{
+    margin-top:40px;
+    margin-right:20px;
+    margin-bottom:30px;
+    margin-left:20px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    width: 95%;
+ }
+#third h1{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.photo2{
+    border:2px solid #666666; 
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+
+}
+.photo2 p{
+    font-size: 10px;
+}
+.photo4{
+    width: 60px;
+    height: 60px;
+    padding-left: 20px;
+}
+#forth{
+    border:2px solid #666666;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 30px;
+}
+#forth h1{
+    display: block;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+#forth h2{
+    font-size: 15px;
+   padding-bottom: 20px;
+    color: slategrey;
+}
+ol{
+    padding-left: 40px;
+}
+.ge{
+    width: 95%;
+    height: 200px;
+}
+th{
+    background-color: black;
+    color: white;
+}
+.heji{
+    background-color: gray;
+}
+aside{
+    border:2px solid #666666;
+    float: right;
+    width: 25%;
+    margin-top: 30px;
+    background-color: white;
+}
+.submit{
+    width: 99%;
+    height: 50px;
+    background-color: cyan;
+}
+#zong{
+    overflow: hidden;
+}
+#footer{
+    background-color: black;
+    height: 70px;
+    margin-top: 20px;
+}
+#footer p{
+    color: white;
+    text-align: center;
+   
+}
+

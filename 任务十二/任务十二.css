@@ -1,0 +1,51 @@
+table {
+    width: 300px;
+    height: 20px;
+    color: black;
+}
+table tr:nth-child(2n+3) {
+    background-color: gray;
+}
+table tr:nth-child(2n) td:nth-child(2) {
+    color: red;
+}
+tr:nth-child(-n+4) {
+    color: red;
+}
+input {
+    width: 100px;
+    height: 60px;
+    transition: width 1s;
+}
+input:hover {
+    width: 300px;
+    border: 3px solid red;
+}
+.kuang {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    background-color: green;
+}
+ul {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    list-style: none;
+}
+li {
+    float: left;
+    margin-left: 2px;
+}
+a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    color:blue;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color:blue;
+}
