@@ -205,5 +205,8 @@ li{
     float: right;
     margin-bottom: 20px;
 }
+.panel{
+    width: 290px;
+}
 
 
